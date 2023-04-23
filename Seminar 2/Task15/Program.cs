@@ -8,6 +8,7 @@ else if (n > 7)
 {
     System.Console.WriteLine($"{n} -> Not a valid number");
 }
+
 else
 {
     System.Console.WriteLine($"{n} -> No");
