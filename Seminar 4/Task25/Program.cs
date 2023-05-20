@@ -13,10 +13,14 @@
 
 double Result(int[] ApowB)
 {
-    double result = Math.Pow(ApowB[0], ApowB[1]);
+    int result = ApowB[0];
     if (isNatural(ApowB[1]))
     {
-        return result;
+        for (int i = 0; i < ApowB[1] - 1; i++)
+        {
+            result = result * ApowB[0];
+        }
+        return  result;
     }
     else
     {
