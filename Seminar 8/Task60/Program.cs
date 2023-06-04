@@ -53,8 +53,8 @@ void PrintMatrix(int[,,] matrix)
         {
             for (int k = 0; k < matrix.GetLength(2); k++)
             {
-                System.Console.Write($"{matrix[i, j, k]}");
-                System.Console.Write($"{(i, j, k)}");
+                System.Console.Write($"{matrix[j, k, i]}");
+                System.Console.Write($"{(j, k, i)}");
                 System.Console.Write("\t");
             }
             System.Console.WriteLine();
